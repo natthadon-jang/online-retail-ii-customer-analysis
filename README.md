@@ -7,11 +7,11 @@ built in BigQuery SQL on 1M+ transaction records (Dec 2009 – Dec 2011).
 
 ## Key findings
 
-YTD 2011 (1 Jan – 9 Dec) compared with the same period in 2010:
+YTD 2011 (1 Jan – 9 Dec) compared with the same period in 2010. Sales grew 5.1% to £9.47M,
+but from higher prices (+8.7% average selling price), not more orders: bills fell 3.6%.
 
-- Sales grew **5.1%** to £9.47M, but the number of bills fell **3.6%**.
-  The growth came from higher prices (+8.7% average selling price), not more orders.
 - **28.0%** of customer accounts (1,638 of 5,852) were lost: they bought last year but not this year.
+  Based on last year's sales, this is about **£1.16M** in lost sales.
 - Another **22.7%** (1,329) are showing signs of leaving
   (At Risk, Need Attention, Can't Lose Them, About to Sleep, One-Off Big Spender, Hibernating).
 - Only **55.5%** of last year's Champions stayed Champions. The 44.5% who dropped to lower segments
