@@ -36,6 +36,9 @@ but from higher prices (+8.7% average selling price), not more orders: bills fel
 
 ## Approach
 
+The SQL scripts in this repo prepare the data in BigQuery. Their output tables are loaded into
+Power BI, where the analysis and the charts in the report were built.
+
 | Step | File | What it does |
 | --- | --- | --- |
 | 1. Clean | `sql/01_sales_transaction.sql` | Removes cancellations (C) and debt adjustments (A), zero-price rows, and non-product codes (postage, fees, adjustments, test items, gift vouchers); merges duplicate rows |
@@ -70,7 +73,7 @@ Both years are cut at the same date.
 
 ## Tools
 
-BigQuery (SQL) · Power BI and Excel for exploration · PowerPoint for the report
+BigQuery (SQL) for data preparation · Power BI for analysis and charts · Excel for exploration · PowerPoint for the report
 
 ## Not covered
 
