@@ -11,14 +11,14 @@ YTD 2011 (1 Jan – 9 Dec) compared with the same period in 2010:
 
 - Sales grew **5.1%** to £9.47M, but from higher prices (+8.7% average selling price),
   not more orders: bills fell 3.6%.
-- **28.0%** of customer accounts (1,638 of 5,852) were lost: they bought last year but not this year.
+- **28.0%** of customer accounts (1,638 of 5,852) were Lost: they had bought before but made no purchase in YTD 2011.
   Based on last year's sales, this is about **£1.16M** in lost sales.
 - Another **22.7%** (1,329) are showing signs of leaving
   (At Risk, Need Attention, Can't Lose Them, About to Sleep, One-Off Big Spender, Hibernating).
 - Only **55.5%** of last year's Champions stayed Champions. The 44.5% who dropped to lower segments
   spent £733,840 less than last year.
-- Fewer new customers are coming back for a second purchase, starting with customers who joined
-  in August 2010. Most repeat buyers return within 4 months of their first purchase.
+- Fewer customers are coming back for a second purchase, starting with those who first bought
+  in August 2010. Most repeat buyers return within 4 months of their first purchase month.
 
 ## Recommendations
 
@@ -31,7 +31,7 @@ YTD 2011 (1 Jan – 9 Dec) compared with the same period in 2010:
 
 ## Data
 
-- Source: [Online Retail II, UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (CC BY 4.0)
+- Source: [Online Retail II, UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii) (CC BY 4.0); the copy used here was downloaded from Kaggle
 - ~1.07M rows, one row per product line on an invoice
 - Raw data is not stored in this repo; download it from the link above
 
@@ -46,7 +46,7 @@ Power BI, where the analysis and the charts in the report were built.
 | 2. Customer status | `sql/02_active_member_data.sql` | Monthly active flag and new vs existing customers |
 | 3. Repeat purchase | `sql/03_member_repeat_purchase_cohort.sql` | Months between a customer's first and following purchases |
 | 4. RFM | `sql/04_rfm_model.sql` | Scores customers 0–5 on Recency, Frequency and Monetary for YTD and the same period last year, then maps them to 12 segments |
-| 5. Segment movement | `sql/05_rfm_segment_flow.sql` | Where each customer moved between last year's and this year's segment |
+| 5. Segment movement | `sql/05_rfm_segment_flow.sql` | How many customers stayed in, moved into or moved out of each segment between last year and this year |
 
 Run the files in order. Replace `online-retail-ii-uci.transaction` with your own project and dataset.
 
