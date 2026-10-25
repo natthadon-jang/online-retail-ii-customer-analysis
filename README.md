@@ -22,7 +22,7 @@ YTD 2011 (1 Jan – 9 Dec) compared with the same period in 2010:
 
 ## Recommendations
 
-1. Find out why customers left before spending on win-back offers.
+1. Find out why customers did not come back: 1,638 (28.0%) were lost and another 1,329 (22.7%) are at risk of leaving.
 2. Review the loyalty program: Champions and Loyal Customers dropped to lower segments at rates of 44.5% and 58.3%.
 3. Encourage Potential Loyalist and Promising customers to buy more often, e.g. discount coupons for the next purchase.
 4. Encourage Loyal (Low Value) and Promising customers to spend more, e.g. gifts above a spend threshold, volume discounts.
