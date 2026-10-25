@@ -1,6 +1,6 @@
 # Customer Analysis: Online Retail II (UCI)
 
-RFM segmentation and year-over-year customer movement for a UK online gift wholesaler,
+RFM segmentation and year-over-year customer movement for a UK online giftware retailer,
 built in BigQuery SQL on 1M+ transaction records (Dec 2009 – Dec 2011).
 
 **Full report:** [Online_Retail_II_Customer_Analysis_Report.pdf](report/Online_Retail_II_Customer_Analysis_Report.pdf)
